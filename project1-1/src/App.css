@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+*{
+  font-family: 'Paperozi';
+  padding: 20px;
+}
+
+.App {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.App > section {
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.main-title{
+  font-size: 2.8rem;
+}
+
+h1, .counter-title{
+  text-align: center;
+}
+
+.counter-title{
+  font-size: 18px;
+}
+
+.btn-box{
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+button{
+  width: 50px;
+  align-items: center;
+  background-color: rgb(68, 155, 87);
+  border: none;
+  padding: 5px;
+  color: #fff;
+  border-radius: 15px;
+  height: 30px;
+  font-family: 'Paperozi';
+  box-sizing: border-box;
+  box-shadow: 1px 2px 3px rgb(78, 78, 76);
+}
+
+button:hover{
+  background-color: rgb(49, 87, 57);
+  transition: ease 0.3s;
+}
+
+.text-box{
+  display: flex;
+  align-items: center;
+}
+
+.text-box > input{
+  width: 100%;
+  outline: none;
+  font-size: 22px;
+  height: 5px;
+}

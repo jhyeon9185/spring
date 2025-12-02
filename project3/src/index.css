@@ -1,0 +1,38 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+@font-face {
+    font-family: 'SfHambakneun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+html, body{
+  margin: 0px;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  font-family: 'nanumsquare';
+}
+
+body {
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: white;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+}
